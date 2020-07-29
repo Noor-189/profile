@@ -1,0 +1,116 @@
+body {
+  background-color: #F7F9FC;
+  font-family: 'Lora', serif;
+  color: #2C3531;
+  font-size: 17px;
+  line-height: lighter;
+}
+
+h1, h2, h3, a {
+  font-family: 'Roboto', serif;
+}
+
+h1 {
+  color: #2C3531;
+  font-size: 33px;
+  font-weight: 900;
+}
+
+h2 {
+  color: #116466;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+h3 {
+  color: #D9B08C;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+a {
+  color: #3b6978;
+  text-decoration: none;
+}
+
+p {
+  margin-bottom: 50px;
+}
+
+.container {
+  width: 500px;
+  margin: 0px auto;
+}
+
+.card {
+  background-color: : white;
+  text-align: center;
+  padding: 50px;
+  margin: 20px 0px;
+  border-radius: 4px;
+  box-shadow: 3px 3px 5px #02020233;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.img-circle {
+  border-radius: 10%;
+}
+.text-center {
+  text-align: center;
+}
+
+
+.links li {
+  margin: 20px;
+}
+
+.links i {
+  font-size: 30px;
+  color: rgb(200, 200, 200);
+}
+
+.links i:hover {
+  color: #116466;
+}
+
+.btn {
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+
+.btn-beige {
+  background: #FFCB9A;
+  color: white;
+}
+
+.btn-beige:hover {
+  background: #116466;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
